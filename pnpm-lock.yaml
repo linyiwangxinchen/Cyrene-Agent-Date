@@ -15,8 +15,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       '@ag-ui/core':
-        specifier: 1.0.0
-        version: 1.0.0(zod@4.6.7)
+        specifier: 1.0.3
+        version: 1.0.3(zod@4.6.7)
       '@ai-sdk/anthropic':
         specifier: 4.0.71
         version: 4.0.71(zod@4.6.7)
@@ -374,6 +374,14 @@ packages:
 
   '@ag-ui/core@1.0.0':
     resolution: {integrity: sha512-yCRhsQvb4+lmGMrDsi4TOJxqKpm/kb3H64wwL+Z90jNVrkhy17RErfzsNgybfbjNKLM0nenEDYDVJsZHJJSigQ==}
+    peerDependencies:
+      zod: ^3.25.18 || ^4.0.0
+    peerDependenciesMeta:
+      zod:
+        optional: true
+
+  '@ag-ui/core@1.0.3':
+    resolution: {integrity: sha512-HdMdZPOqworKlnzLaNktnbNYgIzOPbzt5ow6J4bPhbmHCdpWpCSZQFgkifQkn1zVHgCK1V+pmKc8xtW6FsQZKA==}
     peerDependencies:
       zod: ^3.25.18 || ^4.0.0
     peerDependenciesMeta:
@@ -4609,8 +4617,8 @@ packages:
   es-toolkit@1.50.0:
     resolution: {integrity: sha512-OyZKhUVvEep9ITEiwHn8GKnMRQIVqoSIX7WnRbkWgJkllCujilqP2rD0u979tkl8wqyc8ICwlc1UBVv/Sl1G6w==}
 
-  es-toolkit@1.52.0:
-    resolution: {integrity: sha512-XTNEJQh1tY1ZJVcf6ayP/2n4ZPyaHlW2FWs7xvw5ddPuhUVjLD3olQVQS7kf58JbAB48iL0uL/jerTrjtV3lDA==}
+  es-toolkit@1.53.1:
+    resolution: {integrity: sha512-VhMc6IXmexu8iYFfL2aaAww6IvJTdHlqBLruLoEUs33YD4IcP5DdZcLOybMsMmmLsiy1c8PsiLsrM0DdIuuRUA==}
 
   es6-error@4.1.1:
     resolution: {integrity: sha512-Um/+FxMr9CISWh0bi5Zv0iOD+4cFh5qLeks1qhAopKVAJw3drgKbKySikp7wGhDL0HPeaja0P5ULZrxLkniUVg==}
@@ -7662,8 +7670,8 @@ packages:
     resolution: {integrity: sha512-n2huDr9h9yzd6exQVnH/jU5mr+Pfx08LRXXZhkLLetAMESRj+anQsTAh940iMrIetKAmry9coFuZQ2jY8/p3WA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  url-join@5.1.1:
-    resolution: {integrity: sha512-5+M4YX5pEFeXSdMyt3J5iXr949UC+j6yHRkZUEv6ljTusAfdCdS4pSTudnYGzYEbKkdK5xIE0E3i5xzIzoiFrQ==}
+  url-join@5.2.0:
+    resolution: {integrity: sha512-/tMVQdp/2eE90fGb6npbd2nLHH8jamzLLeZhLEKTz4Rc38wO5AeEuIhoWroWWfQJS50ZzL4Xod9JER/pJWTTEQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   url-template@2.0.8:
@@ -8113,7 +8121,7 @@ snapshots:
     optionalDependencies:
       zod: 3.25.76
 
-  '@ag-ui/core@1.0.0(zod@4.6.7)':
+  '@ag-ui/core@1.0.3(zod@4.6.7)':
     optionalDependencies:
       zod: 4.6.7
 
@@ -9165,11 +9173,11 @@ snapshots:
       '@lobehub/emojilib': 1.0.0
       antd-style: 4.1.0(@types/react@19.3.0)(antd@6.6.6(date-fns@4.4.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       emoji-regex: 10.6.0
-      es-toolkit: 1.52.0
+      es-toolkit: 1.53.1
       lucide-react: 0.562.0(react@19.3.1)
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
-      url-join: 5.1.1
+      url-join: 5.2.0
     transitivePeerDependencies:
       - '@types/react'
       - antd
@@ -12816,7 +12824,7 @@ snapshots:
 
   es-toolkit@1.50.0: {}
 
-  es-toolkit@1.52.0: {}
+  es-toolkit@1.53.1: {}
 
   es6-error@4.1.1:
     optional: true
@@ -16648,7 +16656,7 @@ snapshots:
 
   url-join@5.0.0: {}
 
-  url-join@5.1.1: {}
+  url-join@5.2.0: {}
 
   url-template@2.0.8: {}
 
