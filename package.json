@@ -84,7 +84,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "@tanstack/react-virtual": "3.14.20",
     "@types/cross-spawn": "^6.0.6",
-    "@types/diff": "^7.0.2",
+    "@types/diff": "^8.0.0",
     "@types/dompurify": "^3.2.0",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^26.6.5",
